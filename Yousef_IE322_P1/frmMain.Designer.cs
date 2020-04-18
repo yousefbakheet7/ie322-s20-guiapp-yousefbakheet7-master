@@ -63,7 +63,7 @@
             // picLogo_IE
             // 
             this.picLogo_IE.Image = global::Yousef_IE322_P1.Properties.Resources.IE_LOGO4_19112019;
-            this.picLogo_IE.Location = new System.Drawing.Point(85, 40);
+            this.picLogo_IE.Location = new System.Drawing.Point(88, 49);
             this.picLogo_IE.Name = "picLogo_IE";
             this.picLogo_IE.Size = new System.Drawing.Size(149, 137);
             this.picLogo_IE.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
