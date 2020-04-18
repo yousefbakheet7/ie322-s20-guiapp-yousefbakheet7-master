@@ -63,7 +63,7 @@
             // picLogo_IE
             // 
             this.picLogo_IE.Image = global::Yousef_IE322_P1.Properties.Resources.IE_LOGO4_19112019;
-            this.picLogo_IE.Location = new System.Drawing.Point(64, 160);
+            this.picLogo_IE.Location = new System.Drawing.Point(85, 40);
             this.picLogo_IE.Name = "picLogo_IE";
             this.picLogo_IE.Size = new System.Drawing.Size(149, 137);
             this.picLogo_IE.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -80,9 +80,10 @@
             this.grpLogin.Controls.Add(this.txtUser);
             this.grpLogin.Controls.Add(this.lblUsername);
             this.grpLogin.Controls.Add(this.BtnAbout);
-            this.grpLogin.Location = new System.Drawing.Point(42, 12);
+            this.grpLogin.Font = new System.Drawing.Font("Trajan Pro", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.grpLogin.Location = new System.Drawing.Point(42, 219);
             this.grpLogin.Name = "grpLogin";
-            this.grpLogin.Size = new System.Drawing.Size(193, 144);
+            this.grpLogin.Size = new System.Drawing.Size(234, 144);
             this.grpLogin.TabIndex = 36;
             this.grpLogin.TabStop = false;
             this.grpLogin.Text = "Login to IE322";
@@ -93,7 +94,7 @@
             this.LnkForgot.Location = new System.Drawing.Point(8, 124);
             this.LnkForgot.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LnkForgot.Name = "LnkForgot";
-            this.LnkForgot.Size = new System.Drawing.Size(93, 13);
+            this.LnkForgot.Size = new System.Drawing.Size(148, 16);
             this.LnkForgot.TabIndex = 11;
             this.LnkForgot.TabStop = true;
             this.LnkForgot.Text = "Forgot password?";
@@ -114,23 +115,23 @@
             this.lblPW.AutoSize = true;
             this.lblPW.Location = new System.Drawing.Point(8, 71);
             this.lblPW.Name = "lblPW";
-            this.lblPW.Size = new System.Drawing.Size(53, 13);
+            this.lblPW.Size = new System.Drawing.Size(81, 16);
             this.lblPW.TabIndex = 9;
             this.lblPW.Text = "Password";
             // 
             // txtPassword
             // 
-            this.txtPassword.Location = new System.Drawing.Point(71, 68);
+            this.txtPassword.Location = new System.Drawing.Point(106, 68);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
-            this.txtPassword.Size = new System.Drawing.Size(100, 20);
+            this.txtPassword.Size = new System.Drawing.Size(100, 23);
             this.txtPassword.TabIndex = 3;
             // 
             // txtUser
             // 
-            this.txtUser.Location = new System.Drawing.Point(71, 28);
+            this.txtUser.Location = new System.Drawing.Point(106, 28);
             this.txtUser.Name = "txtUser";
-            this.txtUser.Size = new System.Drawing.Size(100, 20);
+            this.txtUser.Size = new System.Drawing.Size(100, 23);
             this.txtUser.TabIndex = 2;
             // 
             // lblUsername
@@ -138,7 +139,7 @@
             this.lblUsername.AutoSize = true;
             this.lblUsername.Location = new System.Drawing.Point(8, 35);
             this.lblUsername.Name = "lblUsername";
-            this.lblUsername.Size = new System.Drawing.Size(55, 13);
+            this.lblUsername.Size = new System.Drawing.Size(80, 16);
             this.lblUsername.TabIndex = 1;
             this.lblUsername.Text = "Username";
             // 
@@ -154,10 +155,12 @@
             // 
             // btnEXIT
             // 
-            this.btnEXIT.BackColor = System.Drawing.Color.Orange;
-            this.btnEXIT.Location = new System.Drawing.Point(42, 303);
+            this.btnEXIT.BackColor = System.Drawing.Color.CadetBlue;
+            this.btnEXIT.Font = new System.Drawing.Font("Trajan Pro", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEXIT.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnEXIT.Location = new System.Drawing.Point(658, 377);
             this.btnEXIT.Name = "btnEXIT";
-            this.btnEXIT.Size = new System.Drawing.Size(193, 83);
+            this.btnEXIT.Size = new System.Drawing.Size(106, 48);
             this.btnEXIT.TabIndex = 35;
             this.btnEXIT.Text = "EXIT";
             this.btnEXIT.UseVisualStyleBackColor = false;
@@ -165,10 +168,12 @@
             // 
             // groupBox9
             // 
+            this.groupBox9.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.groupBox9.Controls.Add(this.btnCombo);
             this.groupBox9.Controls.Add(this.btnRadio);
             this.groupBox9.Controls.Add(this.btnCheck);
-            this.groupBox9.Location = new System.Drawing.Point(309, 40);
+            this.groupBox9.Font = new System.Drawing.Font("Trajan Pro", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox9.Location = new System.Drawing.Point(329, 40);
             this.groupBox9.Name = "groupBox9";
             this.groupBox9.Size = new System.Drawing.Size(191, 80);
             this.groupBox9.TabIndex = 40;
@@ -207,6 +212,7 @@
             // 
             // BtnArray
             // 
+            this.BtnArray.Font = new System.Drawing.Font("Trajan Pro", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnArray.Location = new System.Drawing.Point(586, 110);
             this.BtnArray.Name = "BtnArray";
             this.BtnArray.Size = new System.Drawing.Size(162, 39);
@@ -219,6 +225,7 @@
             // 
             this.groupBox10.Controls.Add(this.BtnClasses);
             this.groupBox10.Controls.Add(this.BtnMethods);
+            this.groupBox10.Font = new System.Drawing.Font("Trajan Pro", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox10.Location = new System.Drawing.Point(586, 202);
             this.groupBox10.Name = "groupBox10";
             this.groupBox10.Size = new System.Drawing.Size(162, 81);
@@ -248,22 +255,24 @@
             // 
             // groupBox13
             // 
+            this.groupBox13.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.groupBox13.Controls.Add(this.button4);
             this.groupBox13.Controls.Add(this.button5);
-            this.groupBox13.Location = new System.Drawing.Point(311, 257);
+            this.groupBox13.Font = new System.Drawing.Font("Trajan Pro", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox13.Location = new System.Drawing.Point(331, 275);
             this.groupBox13.Name = "groupBox13";
-            this.groupBox13.Size = new System.Drawing.Size(189, 74);
+            this.groupBox13.Size = new System.Drawing.Size(189, 102);
             this.groupBox13.TabIndex = 42;
             this.groupBox13.TabStop = false;
             this.groupBox13.Text = "More Controls";
             // 
             // button4
             // 
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(105, 30);
+            this.button4.Font = new System.Drawing.Font("Trajan Pro", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Location = new System.Drawing.Point(30, 60);
             this.button4.Margin = new System.Windows.Forms.Padding(2);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.Size = new System.Drawing.Size(127, 23);
             this.button4.TabIndex = 21;
             this.button4.Text = "RandomCombo";
             this.button4.UseVisualStyleBackColor = true;
@@ -271,9 +280,9 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(16, 30);
+            this.button5.Location = new System.Drawing.Point(30, 25);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
+            this.button5.Size = new System.Drawing.Size(127, 23);
             this.button5.TabIndex = 15;
             this.button5.Text = "Random";
             this.button5.UseVisualStyleBackColor = true;
@@ -281,20 +290,22 @@
             // 
             // groupBox12
             // 
+            this.groupBox12.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.groupBox12.Controls.Add(this.button2);
             this.groupBox12.Controls.Add(this.button3);
-            this.groupBox12.Location = new System.Drawing.Point(309, 153);
+            this.groupBox12.Font = new System.Drawing.Font("Trajan Pro", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox12.Location = new System.Drawing.Point(329, 143);
             this.groupBox12.Name = "groupBox12";
-            this.groupBox12.Size = new System.Drawing.Size(191, 71);
+            this.groupBox12.Size = new System.Drawing.Size(191, 103);
             this.groupBox12.TabIndex = 41;
             this.groupBox12.TabStop = false;
             this.groupBox12.Text = "Graphical";
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(14, 26);
+            this.button2.Location = new System.Drawing.Point(32, 25);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.Size = new System.Drawing.Size(127, 23);
             this.button2.TabIndex = 6;
             this.button2.Text = "PictureBox";
             this.button2.UseVisualStyleBackColor = true;
@@ -302,9 +313,9 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(104, 26);
+            this.button3.Location = new System.Drawing.Point(32, 59);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.Size = new System.Drawing.Size(127, 23);
             this.button3.TabIndex = 11;
             this.button3.Text = "PictureBox2";
             this.button3.UseVisualStyleBackColor = true;
@@ -314,6 +325,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.BackgroundImage = global::Yousef_IE322_P1.Properties.Resources._159;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.picLogo_IE);
             this.Controls.Add(this.groupBox13);
